@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<link rel="stylesheet" href="https://assets.zdenekborovec.cz/common/styles.css?2023-12-19T18-25">
+<link rel="stylesheet" href="https://assets.zdenekborovec.cz/common/styles.css?TIMESTAMP">
 
 <style>
 	#header {

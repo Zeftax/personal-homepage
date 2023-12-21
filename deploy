@@ -1,0 +1,8 @@
+#!bin/bash
+
+# Copy the docs and assets directories onto the server
+cp -r docs /srv/http
+cp -r assets /srv/http
+
+# Update the header css GET parameter
+sed -i "s/TIMESTAMP/"$(date +%s)"/g" /srv/http/docs/common/header.php

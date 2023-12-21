@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/sh
 
 # Copy the docs and assets directories onto the server
 cp -r docs /srv/http

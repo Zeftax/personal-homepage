@@ -1,0 +1,70 @@
+body {
+	background-image: url("https://assets.zdenekborovec.cz/common/stones_tile.png");
+	background-repeat: repeat;
+	display: flex;
+}
+
+main {
+	/* Constrain the width of the element */
+	width: 64em;
+	max-width: 64em;
+	flex: 1;
+
+	/* center the element */
+	align-self: center;
+	margin: auto;
+
+	background-image: url("https://assets.zdenekborovec.cz/common/planks_light_tile.png");
+	background-repeat: repeat;
+	color: black;
+	border-radius: 2em;
+	border-style: outset;
+}
+
+article {
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-top: 0.5em;
+	font-family: serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: sans-serif;
+}
+
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: dashed;
+  border-width: 1px;
+  color: black;
+}
+
+.image-container {
+	border-style: solid;
+	border-width: thin;
+	border-color: black;
+	border-radius: 0.5em;
+	float: right;
+	background-image: url("https://assets.zdenekborovec.cz/common/planks_dark_tile.png");
+	background-repeat: repeat;
+	color: white;
+	padding: 1em;
+	margin-left: 1em;
+}
+
+.image-container img {
+	border-radius: 0.5em;
+	border-style: solid;
+	border-width: thin;
+	border-color: black;
+	max-width: 100%;
+}
+
+.image-container p {
+	font-style: italic;
+	margin-bottom: 0;
+}

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<link rel="stylesheet" href="https://assets.zdenekborovec.cz/common/styles.css?TIMESTAMP">
+<link rel="stylesheet" href="http://assets.zdenekborovec-dev.cz/common/styles.css?1703173954">
 
 <style>
 	#header {
@@ -13,7 +13,7 @@
 
 	#header ul {
 		background-color: #202020;
-		background-image: url("https://assets.zdenekborovec.cz/common/planks_dark_tile.png");
+		background-image: url("http://assets.zdenekborovec-dev.cz/common/planks_dark_tile.png");
 		background-repeat: repeat;
 		padding: 0;
 		margin: 0;
@@ -50,8 +50,8 @@
 		<div id="header">
 			<h1> Zdenek Borovec Home Page </h1>
 			<ul>
-				<li><a href="https://www.zdenekborovec.cz">About</a></li>
-				<li><a href="http://www.zdenekborovec.cz/blog">Blog</a></li>
+				<li><a href="http://www.zdenekborovec-dev.cz">About</a></li>
+				<li><a href="http://www.zdenekborovec-dev.cz/blog">Blog</a></li>
 				<li>Gallery</li>
 				<li>Random tools</li>
 			</ul>

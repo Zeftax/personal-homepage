@@ -14,7 +14,7 @@ include_once($COMMONS."/header.php");
 		Who am I?
 	</h2>
 	<div class="image-container" style="max-width: 20em">
-		<img src="https://assets.zdenekborovec.cz/upload/1d21313c-ca12-4cdd-8943-a19ef5602a9c/8e34af81-a431-42f3-b984-020fda40498f.png" alt="A photo of me."/>
+		<img src="http://assets.zdenekborovec.cz/upload/1d21313c-ca12-4cdd-8943-a19ef5602a9c/8e34af81-a431-42f3-b984-020fda40498f.png" alt="A photo of me."/>
 		<p>
 			Me at the start of a walk from Brno to Prague.
 		</p>

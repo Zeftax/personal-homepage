@@ -1,16 +1,9 @@
 #!/bin/sh
 
-# Copy the docs and assets directories onto the server
-cp -r docs /srv/http
-cp -r assets /srv/http
-
-# Update the header css GET parameter
-sed -i "s/TIMESTAMP/"$(date +%s)"/g" /srv/http/docs/common/header.php
-
 # Replace localhost addresses with proper
-find /srv/http/docs -type f -print0 | xargs -0 sed -i 's/https:\/\/www.zdenekborovec.cz/http:\/\/www.zdenekborovec-dev.cz/g'
-find /srv/http/docs -type f -print0 | xargs -0 sed -i 's/https:\/\/assets.zdenekborovec.cz/http:\/\/assets.zdenekborovec-dev.cz/g'
-find /srv/http/docs -type f -print0 | xargs -0 sed -i 's/https:\/\/zdenekborovec.cz/http:\/\/zdenekborovec-dev.cz/g'
-find /srv/http/assets -type f -print0 | xargs -0 sed -i 's/https:\/\/www.zdenekborovec.cz/http:\/\/www.zdenekborovec-dev.cz/g'
-find /srv/http/assets -type f -print0 | xargs -0 sed -i 's/https:\/\/assets.zdenekborovec.cz/http:\/\/assets.zdenekborovec-dev.cz/g'
-find /srv/http/assets -type f -print0 | xargs -0 sed -i 's/https:\/\/zdenekborovec.cz/http:\/\/zdenekborovec-dev.cz/g'
+find docs -type f -print0 | xargs -0 sed -i 's/https:\/\/www.zdenekborovec.cz/http:\/\/www.zdenekborovec-dev.cz/g'
+find docs -type f -print0 | xargs -0 sed -i 's/https:\/\/assets.zdenekborovec.cz\/common/http:\/\/assets.zdenekborovec-dev.cz\/common/g'
+find docs -type f -print0 | xargs -0 sed -i 's/https:\/\/zdenekborovec.cz/http:\/\/zdenekborovec-dev.cz/g'
+find assets -type f -print0 | xargs -0 sed -i 's/https:\/\/www.zdenekborovec.cz/http:\/\/www.zdenekborovec-dev.cz/g'
+find assets -type f -print0 | xargs -0 sed -i 's/https:\/\/assets.zdenekborovec.cz\/common/http:\/\/assets.zdenekborovec-dev.cz\/common/g'
+find assets -type f -print0 | xargs -0 sed -i 's/https:\/\/zdenekborovec.cz/http:\/\/zdenekborovec-dev.cz/g'

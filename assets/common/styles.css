@@ -25,6 +25,7 @@ article {
 	padding-left: 1em;
 	padding-right: 1em;
 	padding-top: 0.5em;
+	padding-bottom: 0.5em;
 	font-family: serif;
 }
 
@@ -33,14 +34,25 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 hr {
-  display: block;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-  margin-left: auto;
-  margin-right: auto;
-  border-style: dashed;
-  border-width: 1px;
-  color: black;
+	display: block;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: dashed;
+	border-width: 1px;
+	color: black;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #000000;
+  text-align: left;
+  padding: 8px;
 }
 
 .image-container {
@@ -67,4 +79,22 @@ hr {
 .image-container p {
 	font-style: italic;
 	margin-bottom: 0;
+}
+
+.frac {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    letter-spacing: 0.001em;
+    text-align: center;
+}
+.frac > span {
+    display: block;
+    padding: 0.1em;
+}
+.frac span.bottom {
+    border-top: thin solid black;
+}
+.frac span.symbol {
+    display: none;
 }

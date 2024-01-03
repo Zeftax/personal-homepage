@@ -53,6 +53,6 @@
 				<li><a href="http://www.zdenekborovec-dev.cz">About</a></li>
 				<li><a href="http://www.zdenekborovec-dev.cz/blog">Blog</a></li>
 				<li>Gallery</li>
-				<li>Random tools</li>
+				<li><a href="http://www.zdenekborovec-dev.cz/random">Random Tools</a></li>
 			</ul>
 		</div>

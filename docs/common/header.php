@@ -43,6 +43,7 @@
 <html>
 	<head>
 		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<link rel="icon" href="http://www.zdenekborovec-dev.cz/favicon.ico">
 		<title><?= isset($PageTitle) ? $PageTitle : "Zdenek Home Page"?></title>
 	</head>
 	<body>

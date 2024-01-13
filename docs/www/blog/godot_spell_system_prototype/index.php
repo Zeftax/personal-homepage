@@ -58,6 +58,10 @@ include_once($COMMONS."/header.php");
 	<p>
 		Damn, just look how much styling that needs.
 	</p>
+	<p>
+		Also, have som grass texture I made, but most likely won't use. But I think it's pretty so I don't want to delete it.
+	</a>
+		<img src="http://www.zdenekborovec-dev.cz/blog/godot_spell_system_prototype/grass.png"/>
 </article>
 
 <?php

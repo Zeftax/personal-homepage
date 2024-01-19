@@ -19,10 +19,3 @@
 		</main>
 	</body>
 </html>
-
-<style>
-	#footer {
-		border-top: double;
-		padding-bottom: 1em;
-	}
-</style>

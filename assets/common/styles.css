@@ -16,6 +16,7 @@ main {
 
 	background-image: url("http://assets.zdenekborovec-dev.cz/common/planks_light_tile.png");
 	background-repeat: repeat;
+	background-color: white;
 	color: black;
 	border-radius: 2em;
 	border-style: outset;
@@ -55,6 +56,22 @@ td, th {
   padding: 8px;
 }
 
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+code {
+	border-style: solid;
+	border-width: thin;
+	border-color: black;
+	border-radius: 0.5em;
+	background-color: #282828;
+	color: #33ff00;
+	padding: 1em;
+	display: block;
+}
+
 .image-container {
 	border-style: solid;
 	border-width: thin;
@@ -63,9 +80,9 @@ td, th {
 	float: right;
 	background-image: url("http://assets.zdenekborovec-dev.cz/common/planks_dark_tile.png");
 	background-repeat: repeat;
+	background-color: black;
 	color: white;
 	padding: 1em;
-	margin-left: 1em;
 }
 
 .image-container img {
@@ -73,10 +90,58 @@ td, th {
 	border-style: solid;
 	border-width: thin;
 	border-color: black;
-	max-width: 100%;
 }
 
 .image-container p {
+	font-style: italic;
+	margin-bottom: 0;
+}
+
+.image-gallery {
+	border-style: solid;
+	border-width: thin;
+	border-color: black;
+	border-radius: 0.5em;
+	background-image: url("http://assets.zdenekborovec-dev.cz/common/planks_dark_tile.png");
+	background-repeat: repeat;
+	background-color: black;
+	color: white;
+	padding: 1em;
+	margin-left: 1em;
+}
+
+.image-gallery div {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	columns: 16em;
+	gap: 1em;
+}
+
+.image-gallery div div {
+	border-style: solid;
+	border-width: thin;
+	border-color: black;
+	border-radius: 0.5em;
+	background-image: url("http://assets.zdenekborovec-dev.cz/common/planks_light_tile.png");
+	background-repeat: repeat;
+	background-color: white;
+	color: black;
+	padding: 1em;
+	max-height: 100%;
+	display: block;
+}
+
+.image-gallery div div img {
+	border-radius: 0.5em;
+	border-style: solid;
+	border-width: thin;
+	border-color: black;
+	object-fit: contain;
+}
+
+.image-gallery div div p {
 	font-style: italic;
 	margin-bottom: 0;
 }
@@ -88,7 +153,7 @@ td, th {
     letter-spacing: 0.001em;
     text-align: center;
 }
-.frac > span {
+.frac span {
     display: block;
     padding: 0.1em;
 }
@@ -97,4 +162,17 @@ td, th {
 }
 .frac span.symbol {
     display: none;
+}
+
+.blog-metadata .blog-tag {
+	border-style: solid;
+	border-width: thin;
+	border-color: black;
+	border-radius: 0.5em;
+	padding: 0.2em;
+	margin: 0.2em;
+}
+
+.blog-metadata .blog-publish-date {
+	float: right;
 }

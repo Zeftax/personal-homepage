@@ -8,9 +8,9 @@ include_once($COMMONS."/header.php");
 ?>
 
 <article>
-	<h1>
+	<h2>
 		Godot spell casting system prototype.
-	</h1>
+	</h2>
 	<div class="blog-metadata">
 		<span class="blog-tag" style="background-color: cornflowerblue">
 			godot
@@ -39,19 +39,19 @@ include_once($COMMONS."/header.php");
 		<h2> Gallery </h2>
 		<div>
 			<div>
-				<img src="http://www.zdenekborovec-dev.cz/blog/godot_spell_system_prototype/nodes.png"/>
+				<img src="http://www.zdenekborovec-dev.cz/blog/godot_spell_system_prototype/nodes.png" alt="A screenshot of the spell casting system.">
 				<p>
 					A path drawn between some nodes, this is what the spell casting looks like.
 				</p>
 			</div>
 			<div>
-				<img src="http://www.zdenekborovec-dev.cz/blog/godot_spell_system_prototype/console.png"/>
+				<img src="http://www.zdenekborovec-dev.cz/blog/godot_spell_system_prototype/console.png" alt="A screenshot showing cast spells log.">
 				<p>
 					A log from the spellbook, it detects all entered paths. It also has a dictionary of paths and spells, if you enter a path that corresponds to a spell, you cast it!
 				</p>
 			</div>
 			<div>
-				<img src="http://www.zdenekborovec-dev.cz/blog/godot_spell_system_prototype/spellbookexports.png"/>
+				<img src="http://www.zdenekborovec-dev.cz/blog/godot_spell_system_prototype/spellbookexports.png" alt="A screenshot from the godot editor showing node export values.">
 				<p>
 					This is how I can interact with the spellbook from the editor. I can add in nodes (it then works with them automagically, so I am not anyhow limited to the 3x3 grid). And I can also add in the spell paths and names (I can then use these to emit a spell_cast event with its name, or something like that).
 				</p>
@@ -66,17 +66,14 @@ include_once($COMMONS."/header.php");
 		Here is a bit of code, so that I can test my code block css:
 	</p>
 	<code>
-		<pre>
 ## Add a node to current spell
 func _on_spellnode_entered(node: SpellNode)-&gt;void:
 	if is_receiving_spell &amp;&amp; not spell_builder.has(node):
 	# Append node to the spell builder
 	spell_builder.append(node);
-
 		# Add new point to the spell line and set the old top to the new nodes position
 		spell_line.add_point(node.position)
 		spell_line.set_point_position(spell_line.get_point_count() - 2, node.position)
-		</pre>
 	</code>
 	<p>
 		I would like to add some kind of syntax highlighting, but from my research I'd have to write a php function for that, as css cannot look for key words, and writing a bunch of php is not something I am currently in the mood for, so this will have to do, for now.

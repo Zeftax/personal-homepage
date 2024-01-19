@@ -70,6 +70,7 @@ code {
 	color: #33ff00;
 	padding: 1em;
 	display: block;
+	white-space: pre;
 }
 
 #header {
@@ -195,15 +196,33 @@ code {
     letter-spacing: 0.001em;
     text-align: center;
 }
+
 .frac span {
     display: block;
     padding: 0.1em;
 }
+
 .frac span.bottom {
     border-top: thin solid black;
 }
+
 .frac span.symbol {
     display: none;
+}
+
+.blog-preview-list {
+	list-style-type:none;
+	padding-left: 0px;
+}
+
+.blog-preview {
+	border-radius: 0.5em;
+	border-style: solid;
+	border-width: thin;
+	border-color: black;
+	margin: 1em;
+	padding-left: 1em;
+	padding-right: 1em;
 }
 
 .blog-metadata .blog-tag {

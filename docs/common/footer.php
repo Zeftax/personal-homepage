@@ -20,14 +20,14 @@
 						<a href="https://validator.w3.org/check/referer">
 							<img style="border:0;width:88px;height:31px"
 								src="https://www.w3.org/Icons/valid-html401"
-								alt="Valid HTML!" />
+								alt="Valid HTML!">
 						</a>
 					</span>
 					<span>
 						<a href="https://jigsaw.w3.org/css-validator/check/referer">
 							<img style="border:0;width:88px;height:31px"
 								src="https://jigsaw.w3.org/css-validator/images/vcss"
-								alt="Valid CSS!" />
+								alt="Valid CSS!">
 						</a>
 					</span>
 				</p>

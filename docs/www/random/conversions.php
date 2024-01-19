@@ -24,7 +24,7 @@ include_once($COMMONS."/header.php");
 		<tr>
 			<td>Retard unit</td>
 			<td>Unretard unit</td>
-			<td>Conversion factor</rd>
+			<td>Conversion factor</td>
 		</tr>
 	</table>
 </article>

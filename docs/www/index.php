@@ -7,9 +7,6 @@ include_once($COMMONS."/header.php");
 ?>
 
 <article>
-	<h1>
-		About this site.
-	</h1>
 	<h2>
 		Who am I?
 	</h2>

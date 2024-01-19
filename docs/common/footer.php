@@ -17,7 +17,7 @@
 				</p>
 				<p>
 					<span>
-						<a href="https://validator.w3.org/check?uri=referer">
+						<a href="https://validator.w3.org/check?uri=zdenekborovec.cz">
 							<img style="border:0;width:88px;height:31px"
 								src="https://www.w3.org/Icons/valid-html401"
 								alt="Valid HTML!">

@@ -20,11 +20,97 @@ include_once($COMMONS."/header.php");
 	<h2>
 		Unretard table
 	</h2>
+	<p>
+		Due to the lackluster nature of imperial units, some of these may be way off. Some may be from the US, some may be from the UK, some may be from atlantis, others from canada and some may be made up by me. Take all of these with a grain (65 mg) of salt.
+	</p>
+
+	<h3> Volume </h3>
 	<table>
 		<tr>
-			<td>Retard unit</td>
-			<td>Unretard unit</td>
-			<td>Conversion factor</td>
+			<td>Retarded unit</td>
+			<td>Unretarded unit</td>
+		</tr>
+		<tr>
+			<td>1 Teaspoon</td>
+			<td>5 ml</td>
+		</tr>
+		<tr>
+			<td>1 Tablespoon</td>
+			<td>15 ml</td>
+		</tr>
+		<tr>
+			<td>1 Fluid ounce</td>
+			<td>240 ml</td>
+		</tr>
+		<tr>
+			<td>1 Cup</td>
+			<td>240 ml</td>
+		</tr>
+		<tr>
+			<td>1 Pint (freedomland)</td>
+			<td>470 ml</td>
+		</tr>
+		<tr>
+			<td>1 Pint (UKingdom)</td>
+			<td>570 ml</td>
+		</tr>
+		<tr>
+			<td>1 Quart</td>
+			<td>950 ml</td>
+		</tr>
+		<tr>
+			<td>1 Gallon</td>
+			<td>3.8 l</td>
+		</tr>
+	</table>
+	<h3> Distance </h3>
+	<table>
+		<tr>
+			<td>Retarded unit</td>
+			<td>Unretarded unit</td>
+		</tr>
+		<tr>
+			<td>1 Inch (″)</td>
+			<td>25.4 mm</td>
+		</tr>
+		<tr>
+			<td>1 Foot (′)</td>
+			<td>30 cm</td>
+		</tr>
+		<tr>
+			<td>1 Yard</td>
+			<td>91 cm</td>
+		</tr>
+		<tr>
+			<td>1 Fathom</td>
+			<td>1.8 m</td>
+		</tr>
+		<tr>
+			<td>1 Mile</td>
+			<td>1.6 km</td>
+		</tr>
+		<tr>
+			<td>1 Nautical Mile</td>
+			<td>1.85 km</td>
+		</tr>
+	</table>
+	<h3> Weight </h3>
+	<table>
+		<tr>
+			<td>Retarded unit</td>
+			<td>Unretarded unit</td>
+		</tr>
+		<tr>
+			<td>1 Ounce</td>
+			<td>28 g</td>
+		</tr>
+		<tr>
+			<td>1 Pound</td>
+			<td>450 g</td>
+		</tr>
+		<tr>
+			<td>1 Ton</td>
+			<td>907 kg</td>
 		</tr>
 	</table>
 </article>

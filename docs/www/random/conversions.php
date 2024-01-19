@@ -22,6 +22,9 @@ include_once($COMMONS."/header.php");
 	</h2>
 	<table>
 		<tr>
+			<td>Retard unit</td>
+			<td>Unretard unit</td>
+			<td>Conversion factor</rd>
 		</tr>
 	</table>
 </article>
@@ -35,7 +38,7 @@ include_once($COMMONS."/header.php");
 		I made a mistake somewhere. If your measurements differ significantly,
 		please e-mail me.
 	</p>
-	<table style="width=100%; margin-bottom = 1em">
+	<table>
 		<tr>
 			<td> Item </td>
 			<td> Special </td>

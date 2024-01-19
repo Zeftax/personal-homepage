@@ -120,6 +120,23 @@ include_once($COMMONS."/header.php");
 			<td>907 kg</td>
 		</tr>
 	</table>
+	<h3 id="unretard-others"> Others </h3>
+	<table>
+		<tr>
+			<td>Retarded unit</td>
+			<td>Unretarded unit</td>
+		</tr>
+		<tr>
+			<td>1 Knot</td>
+			<td> 1.85
+				<div class="frac">
+					<span> km </span>
+					<span class="symbol"> / </span>
+					<span class="bottom"> h </span>
+				</div>
+			</td>
+		</tr>
+	</table>
 </article>
 
 <article id="cooking">

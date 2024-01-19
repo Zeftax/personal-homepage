@@ -10,10 +10,17 @@ include_once($COMMONS."/header.php");
 	<h2>
 		Table of contents
 	</h2>
-	<ol>
-		<li><a href="#unretard">Standard unretard table</a></li>
+	<ul>
+		<li>
+			<a href="#unretard">Standard unretard table</a>
+			<ul>
+				<li> <a href="#unretard-volume">Volume</a> </li>
+				<li> <a href="#unretard-distance">Distance</a> </li>
+				<li> <a href="#unretard-weight">Weight</a> </li>
+			</ul>
+		</li>
 		<li><a href="#cooking">Cooking units</a></li>
-	</ol>
+	</ul>
 </article>
 
 <article id="unretard">
@@ -24,7 +31,7 @@ include_once($COMMONS."/header.php");
 		Due to the lackluster nature of imperial units, some of these may be way off. Some may be from the US, some may be from the UK, some may be from atlantis, others from canada and some may be made up by me. Take all of these with a grain (65 mg) of salt.
 	</p>
 
-	<h3> Volume </h3>
+	<h3 id="unretard-volume"> Volume </h3>
 	<table>
 		<tr>
 			<td>Retarded unit</td>
@@ -63,7 +70,7 @@ include_once($COMMONS."/header.php");
 			<td>3.8 l</td>
 		</tr>
 	</table>
-	<h3> Distance </h3>
+	<h3 id="unretard-distance"> Distance </h3>
 	<table>
 		<tr>
 			<td>Retarded unit</td>
@@ -94,7 +101,7 @@ include_once($COMMONS."/header.php");
 			<td>1.85 km</td>
 		</tr>
 	</table>
-	<h3> Weight </h3>
+	<h3 id="unretard-weight"> Weight </h3>
 	<table>
 		<tr>
 			<td>Retarded unit</td>

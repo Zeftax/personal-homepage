@@ -45,6 +45,29 @@ include_once($COMMONS."/header.php");
 			I have wanted to implement this system in my upcoming game "The Labyrith II" for a few years now, but I got distracted and left it, well, I am back now.
 		</p>
 	</div></li>
+	<li><div class="blog-preview"><a href="http://www.zdenekborovec-dev.cz/blog/flatland_review">
+		<h3>
+			Flatland: A Review.
+		</h3>
+		</a>
+		<div class="blog-metadata">
+			<span class="blog-tag" style="background-color: AntiqueWhite">
+				books
+			</span>
+			<span class="blog-tag" style="background-color: LightSkyBlue">
+				geometry
+			</span>
+			<span class="blog-tag" style="background-color: LightPink">
+				reviews
+			</span>
+			<span class="blog-publish-date">
+				Published on: 2024-03-12
+			</span>
+		</div>
+		<p>
+			I had the privilege to travel Flatland together with A. Square these past few days and the experience was truly delightful.
+		</p>
+	</div></li>
 </ul>
 
 <?php

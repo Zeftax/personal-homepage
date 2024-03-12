@@ -22,29 +22,6 @@ include_once($COMMONS."/header.php");
 </article>
 <hr>
 <ul class="blog-preview-list">
-	<li><div class="blog-preview"><a href="http://www.zdenekborovec-dev.cz/blog/godot_spell_system_prototype">
-		<h3>
-			Godot spell casting system prototype
-		</h3>
-		</a>
-		<div class="blog-metadata">
-			<span class="blog-tag" style="background-color: cornflowerblue">
-				godot
-			</span>
-			<span class="blog-tag" style="background-color: khaki">
-				game-dev
-			</span>
-			<span class="blog-tag" style="background-color: sienna">
-				the-labyrinth-II
-			</span>
-			<span class="blog-publish-date">
-				Published on: 2024-01-13
-			</span>
-		</div>
-		<p>
-			I have wanted to implement this system in my upcoming game "The Labyrith II" for a few years now, but I got distracted and left it, well, I am back now.
-		</p>
-	</div></li>
 	<li><div class="blog-preview"><a href="http://www.zdenekborovec-dev.cz/blog/flatland_review">
 		<h3>
 			Flatland: A Review.
@@ -66,6 +43,29 @@ include_once($COMMONS."/header.php");
 		</div>
 		<p>
 			I had the privilege to travel Flatland together with A. Square these past few days and the experience was truly delightful.
+		</p>
+	</div></li>
+	<li><div class="blog-preview"><a href="http://www.zdenekborovec-dev.cz/blog/godot_spell_system_prototype">
+		<h3>
+			Godot spell casting system prototype
+		</h3>
+		</a>
+		<div class="blog-metadata">
+			<span class="blog-tag" style="background-color: cornflowerblue">
+				godot
+			</span>
+			<span class="blog-tag" style="background-color: khaki">
+				game-dev
+			</span>
+			<span class="blog-tag" style="background-color: sienna">
+				the-labyrinth-II
+			</span>
+			<span class="blog-publish-date">
+				Published on: 2024-01-13
+			</span>
+		</div>
+		<p>
+			I have wanted to implement this system in my upcoming game "The Labyrith II" for a few years now, but I got distracted and left it, well, I am back now.
 		</p>
 	</div></li>
 </ul>
